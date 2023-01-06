@@ -41,14 +41,14 @@ addTask.addEventListener('click',function(){
 
     })
 
-    deleteButton.addEventListener('click',function(e){
+    deleteButton.addEventListener('click',function(){
 
-        let target = e.target
+        // let target = e.target
 
-        target.parentElement.parentElement.remove()
+        // target.parentElement.parentElement.remove('div')
 
         // console.log(deleteButton.parentElement)
-        // deleteButton.parentElement.remove('div')
+        deleteButton.parentElement.remove('div')
 
     })
 
